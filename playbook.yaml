@@ -11,7 +11,7 @@
                     name: maven
           - name: "clone the addressbook project"
             git:
-                    repo: 'https://github.com/upshiftnow/addressbook'
+                    repo: 'https://github.com/Irshad004/addressbook.git'
                     dest: "{{ gitdir }}"
                     version: "master"
           - name: "compile the addressbook project"
